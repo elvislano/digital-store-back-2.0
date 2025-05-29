@@ -6,7 +6,7 @@ async function executarSQL(comandoSql){
         user: "root",
         password: "1234",
         port: "3306",
-        database: "dripstore"
+        database: "digital_store_db"
     });
 
     const [result] = await conexao.query(comandoSql);
