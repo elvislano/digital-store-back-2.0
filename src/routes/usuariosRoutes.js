@@ -1,3 +1,4 @@
+const { criarUsuario } = require("../controller/usuariosController");
 const { executarSQL } = require("../services");
 
 const router = require("express").Router();
